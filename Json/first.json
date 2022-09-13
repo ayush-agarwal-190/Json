@@ -1,0 +1,16 @@
+myJson ='{
+    "name":"Ayush" ,
+    "score":"100",
+    "isGood":true,
+    "license":null,
+    "shopItemArr":["food","clothes","oil",{"a":true}]    //array,
+    "myObj":{
+        "name":"nested",
+        "marks":45
+
+    }
+
+
+}';
+
+//  JSON.parse(myJson);

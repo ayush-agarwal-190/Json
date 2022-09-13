@@ -1,0 +1,35 @@
+JSON is a simple data exchange format.  JSON means JavaScript Object Notation; it is language and platform independent.
+One of the common use of JSON is to collect JSON data from a web server as a file or HTTP request, and convert the JSON data to a JavaScript, ant then it avails the data in a web page.
+
+rule for JSON syntax rules::
+Data is in name/value pairs
+Data is separated by comma
+Curly brackets hold objects
+Square bracket holds arrays.
+
+Why must one use JSON over XML?
+
+It is faster and lighter than XML as on the wire data format
+XML data is typeless while JSON objects are typed
+JSON types: Number, Array, Boolean, String
+XML data are all string
+Data is readily available as JSON object is in your JavaScript
+Fetching values is as simple as reading from an object property in your JavaScript code
+
+JSON.stringify() converts an object into a JSON text and saves that JSON text in a string.
+
+
+ how to parse JSON in JQuery?
+ var json = '{"name": "Guru 99", "Description ": "Learn PHP Interactively with PHP Beginner Tutorials"}'
+
+obj = $.parseJSON(json);
+
+//alert(obj.name);
+
+
+For encoding JSON in PHP, json_encode () function is used.
+
+
+
+JSON RPC: It is a simple remote procedure call protocol same as XML-RPC although it uses the lightweight JSON format instead of XML
+JSON Parser: JSON parser is used to parse the JSON data into objects to use its value. It can be parsed by javaScript, PHP and jQuery
